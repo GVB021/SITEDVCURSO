@@ -363,12 +363,8 @@ function App() {
       <header className="fixed top-0 w-full z-50 border-b border-white/5 bg-black/40 backdrop-blur-xl transition-all duration-300">
         <div className="w-full max-w-7xl mx-auto px-4 md:px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-2 md:gap-3 group cursor-pointer shrink-0">
-            <div className="w-9 h-9 md:w-10 md:h-10 rounded-xl bg-gradient-to-br from-blue-700 to-blue-500 flex items-center justify-center shadow-[0_0_20px_rgba(29,78,216,0.3)] group-hover:scale-105 transition-transform">
-              <Mic className="w-4 h-4 md:w-5 md:h-5 text-white" />
-            </div>
             <div>
-              <span className="font-black text-lg md:text-xl tracking-tighter font-display text-white block leading-none neon-text-white">{(siteData.settings?.siteName || 'StudioVoice Pro').split(' ')[0]}</span>
-              <span className="font-bold text-xs md:text-sm tracking-widest text-blue-400 uppercase neon-text-blue">{(siteData.settings?.siteName || 'StudioVoice Pro').split(' ')[1] || 'Pro'}</span>
+              <span className="font-black text-lg md:text-xl tracking-tighter font-display text-white block leading-none neon-text-white">THE HUB</span>
             </div>
           </div>
           
